@@ -1,0 +1,6 @@
+/* Custom styles for reviews.php */
+
+.review-card {
+    background: #f8f9fa;
+    border-radius: 1rem;
+}

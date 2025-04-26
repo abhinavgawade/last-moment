@@ -1,0 +1,180 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #f7faff 0%, #e0e7ef 100%);
+    border-bottom: 2px solid #e3e6ee;
+    box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.04);
+    font-weight: 500;
+}
+.navbar .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #222 !important;
+    letter-spacing: 1px;
+    background: none !important;
+    padding: 0;
+    border-radius: 0;
+}
+.navbar .navbar-brand i {
+    color: #6a82fb !important;
+    background: none !important;
+}
+.navbar .navbar-brand img {
+    height: 72px !important;
+    width: 72px !important;
+    object-fit: cover !important;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 12px 0 rgba(106,130,251,0.13);
+    border: 3px solid #fff;
+    padding: 6px;
+    margin-right: 10px;
+}
+.navbar .nav-link {
+    color: #32415a !important;
+    font-size: 1.08rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    color: #fff !important;
+    box-shadow: 0 2px 8px 0 rgba(252,92,125,0.07);
+}
+.navbar .btn-primary, .navbar .btn-outline-primary, .navbar .btn-outline-secondary {
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.hero-section {
+    background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+    color: #fff;
+    padding: 70px 0 60px 0;
+    border-radius: 0 0 32px 32px;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 8px 32px 0 rgba(106,130,251,0.18), 0 0 0 8px rgba(252,92,125,0.08);
+}
+.hero-section h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    background: none !important;
+}
+.hero-section h1 span {
+    background: none !important;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+    margin-bottom: 1.8rem;
+}
+.hero-section .btn {
+    font-size: 1.1rem;
+    padding: 0.7rem 2.2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 0 2px 8px 0 rgba(106,130,251,0.09);
+}
+
+.section-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 6px 24px 0 rgba(44, 62, 80, 0.07);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px) scale(1.025);
+    box-shadow: 0 12px 32px 0 rgba(106,130,251,0.13);
+}
+.card-img-top {
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    height: 180px;
+}
+.card-title {
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: #222;
+}
+.card-text {
+    color: #32415a;
+}
+
+.hero-banner-img-wrap:hover .hero-banner-img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 32px 0 rgba(106,130,251,0.18), 0 0 0 8px rgba(252,92,125,0.08);
+    background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+    border-radius: 22px;
+}
+
+.explore-categories-shade, .recent-articles-shade {
+    background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+    border-radius: 2.5rem;
+    box-shadow: 0 8px 32px 0 rgba(106,130,251,0.10), 0 0 0 8px rgba(252,92,125,0.04);
+    padding: 2.5rem 2vw 2.8rem 2vw;
+    margin-bottom: 2.5rem;
+    width: 96vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .explore-categories-shade, .recent-articles-shade {
+        border-radius: 1.2rem;
+        padding: 1.5rem 1vw 1.8rem 1vw;
+        width: 98vw;
+        max-width: 99vw;
+    }
+}
+
+#categories-pagination .card {
+    background: rgba(255,255,255,0.97);
+    border-radius: 18px;
+    box-shadow: 0 4px 18px 0 rgba(106,130,251,0.09);
+}
+#categories-pagination .category-title {
+    color: #222;
+}
+#categories-pagination .category-icon i {
+    color: #6a82fb;
+}
+
+.footer {
+    background: #f0f4fc;
+    border-top: 2px solid #e3e6ee;
+    color: #32415a;
+    font-size: 1.05rem;
+    padding: 2.5rem 0 1.2rem 0;
+}
+.footer-title {
+    color: #222;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        padding: 45px 0 40px 0;
+        border-radius: 0 0 18px 18px;
+    }
+    .card-img-top {
+        height: 130px;
+    }
+}

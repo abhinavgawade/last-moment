@@ -1,0 +1,7 @@
+/* Custom styles for process_add_reviewer.php */
+
+.process-add-reviewer-msg {
+    text-align: center;
+    color: var(--success-color);
+    font-size: 1.1rem;
+}

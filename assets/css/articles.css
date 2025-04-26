@@ -1,0 +1,6 @@
+/* Custom styles for articles.php */
+
+.article-card {
+    border-left: 4px solid var(--primary-color);
+    background: #fff;
+}

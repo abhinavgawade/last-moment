@@ -1,0 +1,7 @@
+/* Custom styles for quizzes.php */
+
+.quizzes-list {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+}

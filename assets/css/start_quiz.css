@@ -1,0 +1,7 @@
+/* Custom styles for start_quiz.php */
+
+.start-quiz-section {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+}

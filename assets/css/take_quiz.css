@@ -1,0 +1,7 @@
+/* Custom styles for take_quiz.php */
+
+.take-quiz-section {
+    background: #f5f7fa;
+    border-radius: 1rem;
+    padding: 2rem;
+}

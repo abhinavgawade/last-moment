@@ -1,0 +1,7 @@
+/* Custom styles for quiz_result.php */
+
+.quiz-result {
+    background: #f8f9fa;
+    border-radius: 1rem;
+    padding: 2rem;
+}

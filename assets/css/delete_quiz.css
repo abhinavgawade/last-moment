@@ -1,0 +1,7 @@
+/* Custom styles for delete_quiz.php */
+
+.delete-quiz-section {
+    background: #fff3f3;
+    border-radius: 1rem;
+    padding: 2rem;
+}

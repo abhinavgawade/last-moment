@@ -1,0 +1,7 @@
+/* Custom styles for admin.php */
+
+.admin-panel {
+    background: #fff3cd;
+    border-radius: 1rem;
+    padding: 2rem;
+}

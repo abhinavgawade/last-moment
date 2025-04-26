@@ -1,0 +1,7 @@
+/* Custom styles for published.php */
+
+.published-list {
+    background: #e9f7ef;
+    border-radius: 1rem;
+    padding: 2rem;
+}

@@ -1,0 +1,7 @@
+/* Custom styles for reviewer.php */
+
+.reviewer-section {
+    background: #f5f7fa;
+    border-radius: 1rem;
+    padding: 2rem;
+}

@@ -1,0 +1,7 @@
+/* Custom styles for test_db.php */
+
+.test-db-msg {
+    text-align: center;
+    color: var(--success-color);
+    font-size: 1.1rem;
+}

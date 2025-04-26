@@ -1,0 +1,7 @@
+/* Custom styles for view_quiz.php */
+
+.view-quiz-section {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+}

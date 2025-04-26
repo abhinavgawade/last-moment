@@ -1,0 +1,95 @@
+/* Global styles */
+body {
+    background: url('https://source.unsplash.com/1920x1080/?office,technology') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    padding-top: 70px; /* To prevent navbar overlap */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ff9800; /* Orange on hover */
+}
+
+/* Card for form */
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+/* Card Body */
+.card-body {
+    padding: 2.5rem;
+}
+
+/* Form styling */
+.form-label {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #ff9800; /* Orange focus effect */
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.5);
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: #ff9800;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e68900;
+}
+
+/* Alert messages */
+.alert {
+    border-radius: 8px;
+}
+
+/* Footer and text link */
+.text-center p {
+    color: #333;
+    font-size: 1rem;
+}
+
+.text-center a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}

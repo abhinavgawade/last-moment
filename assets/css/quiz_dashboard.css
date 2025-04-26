@@ -1,0 +1,7 @@
+/* Custom styles for quiz_dashboard.php */
+
+.quiz-dashboard {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+}

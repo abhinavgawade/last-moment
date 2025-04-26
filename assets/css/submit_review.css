@@ -1,0 +1,8 @@
+/* Custom styles for submit_review.php */
+
+.submit-review-form {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(33,37,41,0.10);
+    padding: 2rem;
+}

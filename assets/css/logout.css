@@ -1,0 +1,8 @@
+/* Custom styles for logout.php */
+
+.logout-message {
+    text-align: center;
+    margin-top: 4rem;
+    color: var(--success-color);
+    font-size: 1.3rem;
+}

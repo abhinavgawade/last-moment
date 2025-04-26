@@ -1,0 +1,8 @@
+/* Custom styles for profile.php */
+
+.profile-header {
+    background: linear-gradient(90deg, #6c63ff 0%, #198754 100%);
+    color: #fff;
+    border-radius: 1rem 1rem 0 0;
+    padding: 2rem 1rem 1rem 1rem;
+}
